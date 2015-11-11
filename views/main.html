@@ -1,0 +1,19 @@
+<div class="jumbotron">
+	<h1>I am...</h1>
+	<div class="container-fluid">
+		<div class="female">
+			<h2>Female</h2>
+			<span class="icon icon-woman"></span>
+			<div class="percentage" ng-class="{'green' : more === 'Female', 'red' : more === 'Male'}"><span ng-bind="femalePercentage"></span> %</div>
+			<div ng-click="vote('Female')" class="btn btn-success"><span class="icon icon-checkmark2"></span> Vote</div>
+		</div>
+		<div class="male">
+			<h2>Male</h2>
+			<span class="icon icon-man"></span>
+			<div class="percentage" ng-class="{'green' : more === 'Male', 'red' : more === 'Female'}"><span ng-bind="malePercentage"></span> %</div>
+			<div ng-click="vote('Male')" class="btn btn-success"><span class="icon icon-checkmark2"></span> Vote</div>
+		</div>
+	</div>
+
+</div>
+

@@ -1,0 +1,77 @@
+
+
+
+/* Custom page header */
+.header {
+  border-bottom: 1px solid #e5e5e5;  
+}
+
+
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+
+  /* Remove the padding we set earlier */
+  .header,
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
+
+
+.male, .female{
+  display: inline-block;
+  height:20em;
+  -moz-user-select: none; 
+  -khtml-user-select: none; 
+  -webkit-user-select: none; 
+  -o-user-select: none;
+}
+
+.female > span.icon, .male > span.icon{
+  font-size:12em;
+}
+
+.female > div.percentage, .male > div.percentage{
+  -moz-user-select: none; 
+  -khtml-user-select: none; 
+  -webkit-user-select: none; 
+  -o-user-select: none;
+  font-size: 3em;
+  margin-top:1em;
+  margin-bottom:1em;
+}
+
+div.percentage.green{
+  color:green;
+}
+
+div.percentage.red{
+  color:red;
+}
+
+
+ 
